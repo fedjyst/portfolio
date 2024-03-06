@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sterlin portfolio</title>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -16,7 +17,7 @@
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Favicon  -->
-    <link rel="icon" href="images/log.png">
+    <link rel="icon" href="images/favcon.png">
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -25,8 +26,8 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html">
-                <img src="images/logo.svg" alt="alternative"> -->
+            <a class="navbar-brand logo-image" href="index.html">
+                <img src="images/logo.png" alt="alternative">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -193,8 +194,9 @@
                         <!-- Text Container -->
                         <div class="text-container">
                             <h2>Why Work With Me?</h2>
-                            <p>I am a great communicator and I love to invest the necessary time to understand the
-                                customer's problem very well, focusing on their specific needs.</p>
+                            <p>I am adept at communication and thoroughly enjoy dedicating the required time to
+                                understand the customer's problem in depth, with a keen focus on their specific needs.
+                            </p>
                             <h5>DEVELOPMENT SKILLS</h5>
                             <p>I am familiar and work on a daily basis with HTML, CSS, JavaScript, Bootstrap and other
                                 modern frameworks.</p>
@@ -334,28 +336,28 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
-                <div class="col-lg-12">
 
+                <div class="col-lg-12">
                     <!-- Contact Form -->
                     <form id="contactForm">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
+                            <input type="text" class="form-control-input" id="name" required>
+                            <label class="label-control" for="name" name="name">Name</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
+                            <input type="email" class="form-control-input" id="email" required>
+                            <label class="label-control" for="email" name="email">Email</label>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Project details</label>
+                            <textarea class="form-control-textarea" id="message" required></textarea>
+                            <label class="label-control" for="message" name="message">Project details</label>
                         </div>
                         <div class="form-group">
-                            <button type="" class="form-control-submit-button">Envoyer</button>
+                            <button type="submit" class="form-control-submit-button">Send</button>
                         </div>
                     </form>
+                    <div id="contactMessage"></div>
                     <!-- end of contact form -->
-
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -408,7 +410,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a class="no-line" href="#your-link">Sterlin Payen </a></p>
+                    <p class="p-small">Copyright © <a class="no-line" href="#header">Sterlin Payen </a></p>
                     <p>
                         <center>=2024=</center>
                     </p>

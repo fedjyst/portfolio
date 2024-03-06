@@ -76,3 +76,40 @@
 	});
 
 })(jQuery);
+
+
+    const contactForm = document.getElementById('contactForm');
+    const contactMessage = document.getElementById('contactMessage');
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        emailjs.send('service_99honcr', 'template_pymoi0g', {
+            name: name,
+            email: email,
+            message: message
+        }, 'EHIqwHTMZyMADPbft')
+        .then((response) => {
+            console.log('Email sent:', response);
+            showContactMessage('Message sent successfully ✅', 'success-message');
+        })
+        .catch((error) => {
+            console.error('Error sending email:', error);
+            showContactMessage('Message not sent ⛔', 'error-message');
+        })
+        .finally(() => {
+            // Réinitialiser le formulaire après l'envoi ou en cas d'erreur
+            contactForm.reset();
+        });
+    };
+
+    const showContactMessage = (message, className) => {
+        contactMessage.innerHTML = `<div class="${className}">${message}</div>`;
+    };
+
+    contactForm.addEventListener('submit', sendEmail);
+
