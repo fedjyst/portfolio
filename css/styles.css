@@ -745,7 +745,7 @@ a:hover.back-to-top {
 /* Média query pour les petits écrans (smartphones, 0px - 767px) */
 @media (max-width: 767px) {
 	.navbar {
-		backdrop-filter: blur(7px);
+		backdrop-filter: blur(10px);
 		font-weight: 600;
 		font-size: 0.875rem;
 		line-height: 0.875rem;
