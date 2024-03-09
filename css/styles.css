@@ -750,10 +750,11 @@ a:hover.back-to-top {
 		font-weight: 600;
 		font-size: 0.875rem;
 		line-height: 0.875rem;
+		box-shadow: 0px 3px 6px  gray;
 	}
 
 	.offcanvas-collapse {
-		background-color: rgba(27, 23, 23, 0.671);
+		background-color: rgba(10, 9, 9, 0.856);
 		border-radius: 10px;
 		position: fixed;
 		top: 3.20rem;
