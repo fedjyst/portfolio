@@ -296,7 +296,6 @@ a:hover {
 
 .navbar .logo-image img {
 	width: 40px;
-
 }
 
 .navbar .logo-text {
@@ -355,13 +354,11 @@ a:hover {
 /*     Header     */
 /******************/
 .header {
-
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/back.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
-
 }
 
 .header .h1-large {
@@ -448,7 +445,7 @@ a:hover {
 	padding: 3.5rem 1rem 2.125rem 1rem;
 	border: 1px solid #ffffff;
 	background-color: #1e646e;
-	height: 30pc;
+	height: 40pc;
 }
 
 .basic-2 .fas,
@@ -525,6 +522,8 @@ a:hover {
 	background-color: transparent;
 }
 
+
+
 .accordion-1 .card button {
 	padding: 0;
 	color: #24262a;
@@ -536,6 +535,7 @@ a:hover {
 
 .accordion-1 .card button:hover {
 	text-decoration: none;
+	color: #0b36a8;
 }
 
 .accordion-1 .card button:before {
@@ -750,7 +750,7 @@ a:hover.back-to-top {
 		font-weight: 600;
 		font-size: 0.875rem;
 		line-height: 0.875rem;
-		box-shadow: 0px 3px 6px  gray;
+		box-shadow: 0px 3px 6px gray;
 	}
 
 	.offcanvas-collapse {
