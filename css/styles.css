@@ -586,7 +586,7 @@ a:hover {
 }
 
 .label-control {
-	color: black;
+	color: grey;
 	font-style: italic;
 }
 
@@ -779,7 +779,7 @@ a:hover.back-to-top {
 	.basic-2 .text-box {
 		border: 1px solid #ffffff;
 		background-color: #1e646e;
-		height: 25pc;
+		height: 30pc;
 	}
 
 	.basic-2 .fas,
@@ -894,7 +894,8 @@ a:hover.back-to-top {
 		display: inline-block;
 	}
 
-	.split .area-2 {
+	.sp
+	lit .area-2 {
 		height: 100%;
 		width: 50%;
 		display: inline-block;
